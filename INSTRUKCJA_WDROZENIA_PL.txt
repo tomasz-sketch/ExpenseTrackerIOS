@@ -1,0 +1,34 @@
+EXPENSETRACKER PWA – INSTRUKCJA WDROŻENIA
+
+1. Rozpakuj archiwum ZIP.
+2. Zainstaluj Node.js LTS z https://nodejs.org/
+3. Otwórz folder ExpenseTracker_PWA.
+4. Kliknij pasek adresu Eksploratora plików, wpisz cmd i naciśnij Enter.
+5. Wpisz:
+   npm install
+   npm run dev
+6. Aby sprawdzić wersję produkcyjną:
+   npm run build
+   npm run preview
+
+PUBLIKACJA:
+1. Załóż konto na https://github.com/ i utwórz repozytorium ExpenseTracker.
+2. Wgraj pliki projektu do repozytorium. Nie wgrywaj node_modules.
+3. Załóż konto na https://vercel.com/
+4. Wybierz Add New > Project i zaimportuj repozytorium.
+5. Framework: Vite
+   Build Command: npm run build
+   Output Directory: dist
+   Install Command: npm install
+6. Kliknij Deploy.
+7. Po wdrożeniu skopiuj adres HTTPS.
+8. Na iPhonie otwórz ten adres w Safari.
+9. Wybierz Udostępnij > Dodaj do ekranu początkowego.
+
+DANE:
+Wydatki zapisywane są lokalnie w pamięci przeglądarki na tym iPhonie.
+Nie są wysyłane na serwer i nie synchronizują się z innymi urządzeniami.
+Eksportuj CSV regularnie jako kopię zapasową.
+
+UWAGA:
+Vercel Hobby jest przeznaczony do prywatnych, niekomercyjnych projektów. Sprawdź aktualne warunki i limity na https://vercel.com/pricing.
